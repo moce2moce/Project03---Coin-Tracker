@@ -1,0 +1,104 @@
+.MuiBackdrop-root{
+  background-color: rgb(255 255 255 / 75%) !important;
+}
+.purpleLinearNavbar .MuiLinearProgress-root.MuiLinearProgress-colorSuccess.MuiLinearProgress-determinate {
+  background-color: rgba(99, 0, 238, 0.4) !important;
+}
+.purpleLinearNavbar .MuiLinearProgress-bar.MuiLinearProgress-barColorError.MuiLinearProgress-bar1Determinate,
+.purpleLinearNavbar .MuiLinearProgress-bar.MuiLinearProgress-barColorSuccess.MuiLinearProgress-bar1Determinate {
+  background-color: #6200ee !important;
+}
+
+.purpleLinearNavbar .MuiFormControl-root  {
+  color: black !important;
+}
+
+
+
+.hoverOnButtons:hover {
+  background-color: hsla(265, 100%, 47%, 0.622) !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input  {
+  text-align: right;
+  padding-right: 16px!important;
+}
+
+
+.MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected {
+  color: #70efde;
+}
+.MuiButtonBase-root.MuiFab-root.MuiFab-circular {
+background-color: #03dac5;
+}
+.MuiButtonBase-root.MuiFab-root.MuiFab-circular span {
+  color: black;
+}
+
+.plusButton {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  z-index: 5;
+}
+
+
+@media screen and (min-width:900px ) { 
+.MuiBottomNavigation-root {
+  position: fixed;
+  top: 0px;
+  right: 100px;
+  z-index: 999;
+  width: 500px;
+}
+.MuiBox-root.headerBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+z-index: 10;
+
+}
+
+
+.MuiButtonBase-root.MuiBottomNavigationAction-root {
+  flex-direction: row;
+  margin-right: 26px;
+
+}
+.MuiButtonBase-root.MuiBottomNavigationAction-root svg {
+  margin-right: 10px;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthLg.MuiContainer-fixed {
+  margin-top: 90px!important;
+}
+.MuiBox-root.bottomNav {
+  margin-bottom: 90px;
+  z-index: 1000;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+}
+  
+
+
+
+
+
+.calendarDate {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.innerClendarDate {
+  display: flex;
+  flex-direction: column
+}
+
+.iconCalendar {
+  width: 24px;
+height: 24px;
+}
