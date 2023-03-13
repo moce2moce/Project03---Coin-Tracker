@@ -1,4 +1,4 @@
-# Project03
+# Project03 -  Coin Tracker
 
 https://goce-georgievski-project3.netlify.app/
 
